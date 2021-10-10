@@ -1,0 +1,13 @@
+# Running analysis of "Green" stocks for financial planners to make reccomendations. Refactored "All Stock Analysis" to loop through the data and better handle larger data sets
+##After performing an analysis of each stock, there are a few trends that stand out. DQ, the original case study, showing incredible growth of 199.4% in 2017, however, DQ showed -62.6% growth in 2018. DQ likely overperformed in 2017 and is showing regression towards the mean.
+##Observing the overall analysis of each stock in the study, it does appear that 2017 showed significant growth where 2018 was generally a "down" year. A few stocks that I think should be called out are "RUN" and "ENPH".
+###"Run" saw modest growth in 2017, compared to the field it was an under-performer. However, "RUN" exhibited 84% growth in 2018, a market that generally saw substantial losses all around.
+###"ENPH" was just one of two stocks in the analysis that showed growth in both years. Where "ENPH" and "RUN" differ is "ENPH" should incredible growth in both markets. This company should definitely be worth looking into.
+##Our refactoring process was successful. The images provided do show that the analysis was run in 0.1679688 seconds for both years.
+##Refatoring code can be an excellent tool when working with large data sets. In this example, both the runtime of the original code and the refactored code were adequate for our puroposes. However, a lardger data set will take longer to run. Running an analyis on 12 stocks is very different than running an analysi on 1200. Code that can handle larger data sets at a faster pace will be a useful tool for any data scientist. Another benefit of a refactored code is that it may be easier for other developers to read and understand the process of what the code is trying to do. This could allow for more collaboration as well as reusing the code to look at other data sets as well.
+###Refactoring code does have disadvantages, however. The most obvious disadvantage is the time associated with rewriting a code that's already functional. The time it takes to sit down, map out a plan, write, debug, test, and rewrite should be considered if/when deciding to refactor code. It also opens up room for errors, or for the code to not work faster than the original piece.
+###When looking at refactoring data in terms of VBA, one of the most practical advantages is the fact that you can make your code both easier to read and more powerful, handling much larger problems. The biggest disadvantage would be that it is easy to make errors, which would lead to the code not running properly or less efficient than intended.
+
+##Resources:
+###2017_stock_analysis_runtime.png
+###2018_stock_analysis_runtime.png
